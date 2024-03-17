@@ -1,0 +1,43 @@
+{
+  "name": "@buildery/nest-exception-handling",
+  "version": "1.0.3",
+  "description": "",
+  "author": "Anton Semin <anton.siaminski@gmail.com>, Vladzimir Karpov",
+  "private": false,
+  "license": "UNLICENSED",
+  "main": "dist/main.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonSeminski/NestJS_ExceptionHandling"
+  },
+  "bugs": "https://github.com/AntonSeminski/NestJS_ExceptionHandling",
+  "dependencies": {
+    "@buildery/error-codes": "^1.1.1",
+    "@nestjs/common": "^10.2.7",
+    "@nestjs/jwt": "^10.1.1",
+    "@nestjs/core": "^10.3.1",
+    "mongodb": "^6.3.0",
+    "fastify": "^4.26.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.2.0",
+    "@nestjs/schematics": "^10.0.2",
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.7",
+    "prettier": "^3.0.3",
+    "source-map-support": "^0.5.21",
+    "ts-loader": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "rootDir": "src"
+}
