@@ -1,6 +1,6 @@
 {
   "name": "@buildery/nest-exception-handling",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "author": "Anton Semin <anton.siaminski@gmail.com>, Vladzimir Karpov",
   "private": false,
@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AntonSeminski/NestJS_ExceptionHandling"
+    "url": "https://github.com/Builldery/nest-exception-handling"
   },
-  "bugs": "https://github.com/AntonSeminski/NestJS_ExceptionHandling",
+  "bugs": "https://github.com/Builldery/nest-exception-handling",
   "dependencies": {
     "@buildery/error-codes": "^1.1.1",
     "@nestjs/common": "^10.2.7",
